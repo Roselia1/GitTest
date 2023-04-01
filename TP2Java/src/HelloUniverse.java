@@ -11,6 +11,7 @@ public class HelloUniverse {
           //  nombredeplanetes = 8;
            // System.out.println("En " +numéroannée + ",les planètes du systèmes solaire étaient au nombre de:" +nombredeplanetes );
        // }
+        //Exo 2
         int nombredeplanetes = 8;
         int numéroannée = 2006;
         if (numéroannée < 2006) {
