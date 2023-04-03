@@ -20,7 +20,7 @@ public class HelloUniverse {
       //  }
        // else nombredeplanetes = 8;
        // System.out.println("En " +numéroannée + ",les planètes du systèmes solaire étaient au nombre de:" +nombredeplanetes );
-        
+
        // Exo 3
        // int nombredeplanetes = 8;
        // int numéroannée = 1650;
@@ -54,7 +54,7 @@ public class HelloUniverse {
                 //default:
                   //  System.out.println("Le programme ne peut pas fournir de résultat pour " +nombredeplanètes);
                // Exo 5
-                int période = 16;
+              /*  int période = 16;
                 int nombredeplanètes = 7;
                      for (nombredeplanètes = 7; nombredeplanètes < 10; nombredeplanètes++) {
                          switch (nombredeplanètes){
@@ -71,9 +71,31 @@ public class HelloUniverse {
                              break;
                              default:
                              System.out.println("Le programme ne peut pas fournir de résultat pour " +nombredeplanètes);
+                     } */
+                    // Exo 6
+                int période = 16;
+                int nombredeplanètes = 7;
+                 while (nombredeplanètes < 10) {
+
+                     switch (nombredeplanètes){
+                         case 7 :
+                             System.out.println("On sait qu'au " +période+ "ème siècle, seules " +nombredeplanètes+ " planètes avaient été decouvertes");
+                             break;
+                         case 8 :
+                             période = 17;
+                             System.out.println("On sait que le nombre de planètes est passé de 7 à 8 au " +période+ "ème siècle, mais il a également été reduit de 9 à 8 en 2006");
+                             break;
+                         case 9 :
+                             période = 18;
+                             System.out.println("On sait que le nombre de planètes est passé de 8 à 9 au " +période+ "ème siècle et ce jusqu'en 2006, où ce nombre a été réduit à 8");
+                             break;
+                         default:
+                             System.out.println("Le programme ne peut pas fournir de résultat pour " +nombredeplanètes);
                      }
+                     nombredeplanètes ++;
+                 }
 
             }
         }
-    }
+
 
